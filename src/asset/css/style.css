@@ -43,6 +43,11 @@
     background-color: #058dd7;
     border-color: #ffffff;
 }
+.nav li a {
+    position: relative;
+    display: block;
+    padding: 10px 10px;
+}
 .navbar-inverse .navbar-nav>li>a {
     color: #ffffff;
 }

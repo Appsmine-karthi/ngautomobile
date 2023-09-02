@@ -20,7 +20,7 @@ function Header({check})
                                 </div>                            
                                 <div className="collapse navbar-collapse" id="myNavbar">
                                     <ul className="nav navbar-nav">                               
-                                        <li><Link to="/">{check.Home}</Link></li>
+                                        <li><Link to="/">{check.Home}</Link></li>                                      
                                         <li><Link to="/About">{check.About}</Link></li>
                                         <li><Link to="/Innovation">{check.Innovation}</Link></li>
                                         <li><Link to="/SocialImpact">{check.Social}</Link></li>
@@ -28,6 +28,7 @@ function Header({check})
                                         <li><Link to="/Business">{check.Business}</Link></li>         
                                         <li><Link to="/Advance-Technology">{check.AdvanceTechnology}</Link></li>        
                                         <li><Link to="/Contact">{check.Contact}</Link></li>                              
+                                        <li><Link to="/Donate">{check.Donate}</Link></li>                              
                                     </ul>
                                 </div>               
                             </nav>

@@ -14,6 +14,7 @@ import MileStone from './component/MileStone'
 import SocialImpact from './component/SocialImpact'
 import {UserProvider} from './component/UserContext'
 import AdvanceTechnology from './component/Advance';
+import Donate from './component/Donate';
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
       MileStone : 'MILESTONE ACHIEVEMENT',
       Business :'BUSINESS',
       AdvanceTechnology :'TECH ADVANTAGES',
-      Contact : 'CONTACT US'
+      Contact : 'CONTACT US',
+      Donate : 'DONATE'
   })
 
   const changeLanguage =()=>{
@@ -43,7 +45,8 @@ function App() {
               MileStone : 'マイルストーンの達成',
               Business :'ビジネス',
               AdvanceTechnology :'テクノロジーの利点',
-              Contact : 'コンタクト'
+              Contact : 'コンタクト',
+              Donate : 'DONATE'
           })
       }
       else
@@ -57,7 +60,8 @@ function App() {
               MileStone : 'MILESTONE ACHIEVEMENT',
               Business :'BUSINESS',
               AdvanceTechnology :'TECH ADVANTAGES',
-              Contact : 'CONTACT US'
+              Contact : 'CONTACT US',
+              Donate : 'DONATE'
           })
       }
   }
@@ -75,6 +79,7 @@ function App() {
           <Route path="/Business" component={Business} />
           <Route path="/Contact" component={Contact} />  
           <Route path="/Advance-Technology" component={AdvanceTechnology} />  
+          <Route path="/Donate" component={Donate} />  
         </UserProvider>
       <Footer />
      

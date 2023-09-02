@@ -37,13 +37,12 @@ class Contact extends Component
                                 <div className="col-md-1">
                                     <img src={Address} className="img-responsive Img-contact-style"/>
                                 </div>
-
                                 <div className="col-md-11">
-                                <h3 className="headingColor">ADMINISTRATION OFFICE</h3>
-                                <h5 className="secondheadingColor">NG Automobile Engineering P.Ltd,</h5>
-                                <p className="classCommonAlign"> 2A,Silver Spring Apartment,</p>
-                                <p className="classCommonAlign">Indira Nagar East,Kalapatti(Post),</p>
-                                <p className="classCommonAlign"> Coimbatore-641 048, Tamil Nadu, India.</p>
+                                        <h3 className="headingColor">ADMINISTRATION OFFICE</h3>
+                                        <h5 className="secondheadingColor"> NG Automobile Engineering (p) Ltd,</h5>
+                                        <p className="classCommonAlign"> Flat No 69,Sky Avenue,</p>
+                                        <p className="classCommonAlign">Kalangal Village,Sulur,</p>
+                                        <p className="classCommonAlign"> Coimbatore 641402, Tamil Nadu, India.</p>
                                 </div>
 
                                 <div className="col-md-1">
